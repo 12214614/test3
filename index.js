@@ -30,11 +30,10 @@ function btn(){
 txt1 = txt.value;   
   greet.innerText = "Hello , " + txt1;
 }
-function btn1(){
-  txt.style.color = 'black'
-}
+
 function handleDoubleClick() {
     txt.style.color = 'black'
 }
 color1.addEventListener("dblclick", handleDoubleClick);
 console.log(handleDoubleClick)
+
